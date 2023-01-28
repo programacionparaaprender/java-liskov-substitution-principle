@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>birds.design2</OriginalElement>
+  <nodes>
+    <node x="641.0" y="167.0">birds.design2.FlightBird</node>
+    <node x="259.5" y="178.5">birds.design2.NonFlightBird</node>
+    <node x="390.0" y="395.0">birds.design2.Main</node>
+    <node x="284.0" y="295.0">birds.design2.Ostrich</node>
+    <node x="473.5" y="21.0">birds.design2.Bird</node>
+    <node x="657.5" y="295.0">birds.design2.Crow</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="birds.design2.Ostrich" target="birds.design2.NonFlightBird" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="birds.design2.NonFlightBird" target="birds.design2.Bird" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="339.0" y="142.0" />
+      <point x="528.0" y="142.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="birds.design2.Crow" target="birds.design2.FlightBird" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="birds.design2.FlightBird" target="birds.design2.Bird" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="705.0" y="142.0" />
+      <point x="528.0" y="142.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="549.0" y="272.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
